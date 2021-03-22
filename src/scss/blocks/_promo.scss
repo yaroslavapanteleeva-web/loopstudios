@@ -1,0 +1,24 @@
+@import '../base/variables';
+
+.promo {
+    position: relative;
+    min-height: 650px;
+    background: url('../assets/img/bg-main.jpg') center (center/cover) no-repeat;
+    padding-top: 64px;
+    &__frame {
+        margin-top: 123px;
+        max-width: 650px;
+        height: 278px;
+        border: 2px solid #FFFFFF;
+        padding: 40px;
+    }
+    &__heading {
+        margin: 0;
+        font-family: $font-josefinSans;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}

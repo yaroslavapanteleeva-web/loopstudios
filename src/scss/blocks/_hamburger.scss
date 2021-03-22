@@ -1,0 +1,32 @@
+.hamburger {
+    display: none;
+    cursor: pointer;
+    height: 24px;
+    position: absolute;
+    right: 24px;
+    & span {
+        margin-bottom: 5px;
+        display: block;
+        width: 24px;
+        height: 2px;
+        background-color: #FFFFFF;
+    }
+    &.open {
+        position: relative;
+        right: 0;
+        & span {
+            margin-bottom: -2px;
+            &:nth-child(1) {
+                transform: translateY(8px) rotate(-45deg)
+            }	
+            &:nth-child(2) {
+                display: none
+            }	
+            &:nth-child(3) {
+                transform: translateY(8px) rotate(45deg)
+            }
+                
+        }
+            
+    }
+}

@@ -1,0 +1,29 @@
+@import './libs/normalize';
+@import './libs/fonts';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.main {
+    &__wrapper {
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+}
+
+@import './blocks/promo';
+@import './blocks/header';
+@import './blocks/logo';
+@import './blocks/menu';
+@import './blocks/demonstraction';
+@import './blocks/heading';
+@import './blocks/info';
+@import './blocks/examples';
+@import './blocks/footer';
+@import './blocks/social-link';
+@import './blocks/hamburger';
+
+@import './base/media';

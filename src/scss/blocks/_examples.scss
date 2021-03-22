@@ -1,0 +1,95 @@
+@import '../base/variables';
+
+.examples {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__btn {
+        width: 157px;
+        height: 40px;
+        border: 1px solid #000000;
+        font-family: $font-alata;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #000000;
+        background-color: #fff;
+        outline: none;
+        cursor: pointer;
+        &_media {
+            display: none;
+        }
+        &:hover {
+            color: #fff;
+            background-color: #000;
+        }
+    }
+    &__items {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    &__item {
+        list-style: none;
+        width: 256px;
+        height: 450px;
+    }
+    &__link {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;  
+        text-decoration: none;
+        &_background_1 {
+            background: url('../assets/img/item-1.png') center (center/cover) no-repeat;
+        }
+        &_background_2 {
+            background: url('../assets/img/item-3.png') center (center/cover) no-repeat;
+        }
+        &_background_3 {
+            background: url('../assets/img/item-4.png') center (center/cover) no-repeat;
+        }
+        &_background_4 {
+            background: url('../assets/img/item-5.png') center (center/cover) no-repeat;
+        }
+        &_background_5 {
+            background: url('../assets/img/item-6.png') center (center/cover) no-repeat;
+        }
+        &_background_6 {
+            background: url('../assets/img/item-7.png') center (center/cover) no-repeat;
+        }
+        &_background_7 {
+            background: url('../assets/img/item-8.png') center (center/cover) no-repeat;
+        }
+        &_background_8 {
+            background: url('../assets/img/item-2.png') center (center/cover) no-repeat;
+        }
+        &_background_opacity {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            padding: 32px 40px;
+            font-family: $font-josefinSans;
+            font-weight: 300;
+            font-size: 32px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            &:hover {
+                background: rgba(255, 255, 255, 0.75071);
+                color: #000000;
+            }
+        }   
+    }
+    &__text {
+        width: 170px;
+        align-self: flex-end;
+    }
+    
+}

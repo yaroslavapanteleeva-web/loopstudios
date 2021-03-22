@@ -1,0 +1,10 @@
+@import '../base/variables';
+
+.heading {
+    font-family: $font-josefinSans;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+}
