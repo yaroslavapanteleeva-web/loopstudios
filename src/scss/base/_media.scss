@@ -119,11 +119,12 @@
         &__heading {
             font-size: 34px;
             line-height: 38px;
+            word-break: break-all;
         }
         &__frame {
             margin-top: 163px;
             padding: 24px;
-            height: 196px;
+            min-height: 196px;
         }
     }
     .header {

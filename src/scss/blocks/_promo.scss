@@ -4,13 +4,15 @@
     position: relative;
     min-height: 650px;
     background: url('../assets/img/bg-main.jpg') center (center/cover) no-repeat;
-    padding-top: 64px;
+    padding: 64px 0 40px;
     &__frame {
         margin-top: 123px;
         max-width: 650px;
-        height: 278px;
+        min-height: 278px;
         border: 2px solid #FFFFFF;
         padding: 40px;
+        display: flex;
+        align-items: center;
     }
     &__heading {
         margin: 0;
